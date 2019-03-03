@@ -1,0 +1,32 @@
+<theme>
+    <formatVersion>4</formatVersion>	
+    <include>./../pandorabox.xml</include>
+
+	<view name="system">
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+		</image>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<image name="background">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./../art/bg_wide.png</path>
+		</image>
+	
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<pos>0.10 0.10</pos>
+			<maxSize>0.15 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+
+	</view>
+	
+</theme>
